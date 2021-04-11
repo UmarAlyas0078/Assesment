@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/item_shape">
+
+    <ImageView
+        android:id="@+id/img_government"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_more_horiz"
+        app:layout_constraintEnd_toStartOf="@+id/img_government1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_government"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/_8sdp"
+        android:text="Governemnt \n Service"
+        app:layout_constraintEnd_toEndOf="@+id/img_government"
+        app:layout_constraintStart_toStartOf="@+id/img_government"
+        app:layout_constraintTop_toBottomOf="@+id/img_government" />
+
+    <ImageView
+        android:id="@+id/img_government1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        app:layout_constraintEnd_toStartOf="@+id/img_government2"
+        app:layout_constraintStart_toEndOf="@+id/img_government"
+        app:layout_constraintTop_toTopOf="@+id/img_government" />
+
+    <TextView
+        android:id="@+id/lbl_government1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Governemnt \n Service"
+        app:layout_constraintEnd_toEndOf="@+id/img_government1"
+        app:layout_constraintStart_toStartOf="@+id/img_government1"
+        app:layout_constraintTop_toBottomOf="@+id/img_government1" />
+
+    <ImageView
+        android:id="@+id/img_government2"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        app:layout_constraintEnd_toStartOf="@+id/img_government3"
+        app:layout_constraintStart_toEndOf="@+id/img_government1"
+        app:layout_constraintTop_toTopOf="@+id/img_government1" />
+
+    <TextView
+        android:id="@+id/lbl_government2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Governemnt \n Service"
+        app:layout_constraintEnd_toEndOf="@+id/img_government2"
+        app:layout_constraintStart_toStartOf="@+id/img_government2"
+        app:layout_constraintTop_toBottomOf="@+id/img_government2" />
+
+    <ImageView
+        android:id="@+id/img_government3"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_government2"
+        app:layout_constraintTop_toTopOf="@+id/img_government2" />
+
+    <TextView
+        android:id="@+id/lbl_government3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Governemnt \n Service"
+        app:layout_constraintEnd_toEndOf="@+id/img_government3"
+        app:layout_constraintStart_toStartOf="@+id/img_government3"
+        app:layout_constraintTop_toBottomOf="@+id/img_government3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
